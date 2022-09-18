@@ -1,9 +1,7 @@
-function App() {
-    return (
-        <div>
-            <h2>Let's get started!</h2>
-        </div>
-    );
-}
+import Expenses from "./components/Expenses";
+
+const App = () => {
+    return <Expenses />;
+};
 
 export default App;
